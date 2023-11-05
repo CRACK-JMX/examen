@@ -1,0 +1,61 @@
+/*
+Theme Name: IECM
+Theme URI: http://iecm.com.mx
+Author: Alejandro Mendoza
+Author URI: https://mobiik.com
+Description: iecm theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: iecm
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+
+
+#mainNavbar .navbar-brand {
+ 	width: 190px !important;
+ 	margin-right: 10px !important;
+}
+
+#content .textBox {
+	width: 100%;
+}
+
+#content .textBox > .box {
+	width: 100%;
+}
+
+#content .textBox > .box > img{
+	width: 100%;
+	display: block;
+}
+
+#content .textBox > .box > p > a {
+	position: relative;
+	width: 100%;
+	display: block;
+	color: #333;
+}
+
+#content .textBox > .box > p > a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+.listTile ul li ul {
+ 	padding-left: 25px;
+ 	margin-bottom: o;
+}
+
+.listTile ul li ul li{
+ 	padding-left: 0;
+}
+
+
+.listTile ul li.menu-item-has-children {
+	border-bottom: none;
+}
+

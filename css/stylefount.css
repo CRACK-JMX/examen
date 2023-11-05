@@ -1,0 +1,15 @@
+body{
+    background: #FDFDFD;
+	color: var(--azul);
+	font-size: 16px;
+	position: relative;
+	font-family: 'Montserrat', 'Helvetica Neue', 'Helvetica', sans-serif;
+	margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+h1{
+    text-align: center;
+}

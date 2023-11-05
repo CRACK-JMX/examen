@@ -1,0 +1,53 @@
+
+/** Reemplazar iconos de los listados de ligas con color "coloredList" **/
+.coloredList li.replaceIcon a:before {
+	background: unset;
+	background-size: unset;
+	left: 7px;
+}
+
+/* Agregar icono de personas */
+.coloredList li.replaceIcon.usuario a:before {
+	font-family: "Font Awesome 5 Pro";
+	content: "\f0c0"; /* Cambiar el código aqui */
+	font-size: 30px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	font-weight: bold; /* Cambiar entre versiones del icono - bold | normal | light */
+}
+
+/* Agregar icono de cuadro con palomita */
+.coloredList li.replaceIcon.voto a:before {
+	font-family: "Font Awesome 5 Pro";
+	content: "\f2c2"; /* Cambiar el código aqui */
+	font-size: 30px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	font-weight: bold; /* Cambiar entre versiones del icono - bold | normal | light */
+}
+
+/* Agregar icono de libreta  */
+.coloredList li.replaceIcon.libreta a:before {
+	font-family: "Font Awesome 5 Pro";
+	content: "\f02d"; /* Cambiar el código aqui */
+	font-size: 30px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	font-weight: bold; /* Cambiar entre versiones del icono - bold | normal | light */
+}
+
+/* Agregar icono de periodico  */
+.coloredList li.replaceIcon.periodico a:before {
+	font-family: "Font Awesome 5 Pro";
+	content: "\f1ea"; /* Cambiar el código aqui */
+	font-size: 30px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	font-weight: normal; /* Cambiar entre versiones del icono - bold | normal | light */
+}
+
+/** END Reemplazar iconos de los listados de ligas con color "coloredList" **/
